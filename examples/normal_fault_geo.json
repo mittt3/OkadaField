@@ -1,0 +1,43 @@
+{
+  "format": "OkadaField settings",
+  "schemaVersion": 2,
+  "appVersion": "0.4.0-beta",
+  "savedAt": "2026-09-09T00:00:00.000Z",
+  "parameters": {
+    "coordMode": "geo",
+    "nu": 0.25,
+    "muGPa": 30,
+    "x0": 0,
+    "y0": 0,
+    "lat0": 35,
+    "lon0": 138,
+    "depth": 10,
+    "strike": 0,
+    "dip": 45,
+    "length": 30,
+    "width": 18,
+    "ss": 0,
+    "ds": -1,
+    "opening": 0,
+    "receiverSource": true,
+    "recStrike": 0,
+    "recDip": 45,
+    "recRake": -90,
+    "friction": 0.4,
+    "view": "horizontal",
+    "obsDepth": 0,
+    "fixed": 0,
+    "a1min": 137.4523,
+    "a1max": 138.5477,
+    "a2min": 34.5492,
+    "a2max": 35.4508,
+    "n1": 101,
+    "n2": 101
+  },
+  "ui": {
+    "preset": "normal",
+    "mapLayer": "pale",
+    "metric": "cff",
+    "vectors": "on"
+  }
+}

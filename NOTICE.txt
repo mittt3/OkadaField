@@ -1,0 +1,30 @@
+OkadaField 0.4.1 beta — NOTICE
+
+Platform: Windows 64-bit (x64) only
+GUI language: Japanese only
+
+OkadaField is a GUI/localhost viewer for displacement, strain, stress change,
+Coulomb stress change, and tilt fields based on the finite rectangular-source
+solution of:
+
+  Okada, Y. (1992), Internal deformation due to shear and tensile faults in a
+  half-space, Bulletin of the Seismological Society of America, 82, 1018-1040.
+
+Stress changes are calculated from the Okada strain field assuming a homogeneous,
+isotropic, linear elastic medium. Coulomb stress change is resolved on a specified
+receiver fault as dCFF = dTau + mu' dSigmaN, where dSigmaN is positive for
+tension/unclamping and mu' is an effective friction coefficient supplied by the user.
+
+This public package contains the GUI executable, documentation, and example
+settings. Source code is not included in this distribution.
+
+Users who need the original DC3D source or manual should refer to the official
+NIED / Bousai website DC3D page:
+  https://www.bosai.go.jp/information/dc3d.html
+
+Map backgrounds, when enabled, use GSI (Geospatial Information Authority of
+Japan) map tiles. Public use should follow the current GSI tile terms and
+attribution requirements.
+
+Suggested acknowledgement:
+  Numerical calculations are based on Okada (1992) / DC3D.
