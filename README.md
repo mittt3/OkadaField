@@ -209,6 +209,7 @@ OkadaField の計算機能は DC3D / Okada (1992) のアルゴリズムに依拠
 
 Okada, Y. (1992), Internal deformation due to shear and tensile faults in a half-space, *Bulletin of the Seismological Society of America*, **82**, 1018–1040.
 
+OkadaField を研究・教育資料で利用する場合は，上記 Okada (1992) を引用してください。OkadaField 自体の恒久的な配布先・DOI 等は beta 段階では未設定です。
 
 ## Feedback / contact
 
@@ -216,4 +217,4 @@ OkadaField に関する不具合報告，ご意見，機能追加のご要望を
 
 - Bug reports / feature requests: GitHub Issues
 - Contact: your-address [at] shizuoka.ac.jp
-OkadaField を研究・教育資料で利用する場合は，上記 Okada (1992) を引用してください。OkadaField 自体の恒久的な配布先・DOI 等は beta 段階では未設定です。
+
