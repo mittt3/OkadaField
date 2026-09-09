@@ -203,7 +203,7 @@ v0.4.0 ではさらに，(1) `ν=0.25, μ=30 GPa` で `λ=30 GPa` となるこ�
 
 ## 公開・再配布に関する注意
 
-OkadaField の計算機能は DC3D / Okada (1992) のアルゴリズムに依拠しているため，研究・教育で用いる際には出典を明記してください。本 README は法的判断を行うものではありません。
+OkadaField の計算機能は DC3D / Okada (1992) のアルゴリズムに依拠しているため，研究・教育で用いる際には出典を明記してください。
 
 ## Reference / citation
 
@@ -218,3 +218,6 @@ OkadaField に関する不具合報告，ご意見，機能追加のご要望を
 - Bug reports / feature requests: GitHub Issues
 - Contact: your-address [at] shizuoka.ac.jp
 
+## Copyright
+
+Copyright (c) 2026 Yuta Mitsui. All rights reserved.
