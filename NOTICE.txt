@@ -1,4 +1,4 @@
-OkadaField 0.4.1 beta — NOTICE
+OkadaField 0.4.2 beta — NOTICE
 
 Platform: Windows 64-bit (x64) only
 GUI language: Japanese only
@@ -23,8 +23,7 @@ NIED / Bousai website DC3D page:
   https://www.bosai.go.jp/information/dc3d.html
 
 Map backgrounds, when enabled, use GSI (Geospatial Information Authority of
-Japan) map tiles. Public use should follow the current GSI tile terms and
-attribution requirements.
+Japan) map tiles.
 
 Suggested acknowledgement:
   Numerical calculations are based on Okada (1992) / DC3D.
