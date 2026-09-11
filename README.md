@@ -226,7 +226,7 @@ OkadaField を研究・教育資料で利用する場合は，上記 Okada (1992
 OkadaField に関する不具合報告，ご意見，機能追加のご要望を歓迎します。
 
 - Bug reports / feature requests: GitHub Issues
-- Contact: your-address [at] shizuoka.ac.jp
+- Contact: mit [at] shizuoka.ac.jp
 
 ## Copyright
 
