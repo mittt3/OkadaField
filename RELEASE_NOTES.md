@@ -1,5 +1,15 @@
 # OkadaField release notes
 
+## 0.4.2 beta
+
+- Changed plot geometry so horizontal and vertical distance scales are equal (1:1).
+- East–North maps now use the same pixel scale per km in both directions.
+- East–Depth and North–Depth sections also use the same pixel scale per km horizontally and vertically.
+- Geographic-map mode fits the plot area to the Web Mercator projected aspect ratio so vector directions are not distorted by the plotting rectangle.
+- Vector arrows therefore preserve their displayed direction relative to the coordinate axes.
+- No changes to the DC3D numerical kernel, strain/stress calculation, or Coulomb-stress calculation.
+- Simplified the GSI map-background wording in README.
+
 ## 0.4.1 beta
 
 - Added stress color-scale controls.
