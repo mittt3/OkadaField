@@ -6,7 +6,7 @@ authors:
   - family-names: "Mitsui"
     given-names: "Yuta"
     affiliation: "Shizuoka University"
-version: "1.0.0"
+version: "1.0.1"
 date-released: 2026-09-14
 repository-code: "https://github.com/mittt3/OkadaField"
 url: "https://github.com/mittt3/OkadaField"
