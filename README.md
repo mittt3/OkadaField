@@ -9,6 +9,16 @@ OkadaField は，Okada (1992) の有限矩形断層 `DC3D` に基づき，半無
 
 重要な解析では，入力値・符号規約・単位を確認し，必要に応じて独立な計算との照合を行ってください。
 
+## Download
+
+Windows 64-bit (x64) 版は GitHub Releases からダウンロードしてください。
+
+- [Latest release](https://github.com/mittt3/OkadaField/releases/latest)
+- 推奨：`OkadaField-v1.0.0-Windows-x64-ja.zip`
+- 実行ファイル単体：`OkadaField-v1.0.0-Windows-x64-ja.exe`
+
+> GitHub の `Code` → `Download ZIP` には実行ファイルは含まれません。OkadaField を使用する場合は，上記 Release からダウンロードしてください。
+
 ## 主な機能
 
 - 1 枚の有限矩形ソース：任意断層，逆断層例，正断層例，横ずれ断層例，ダイク，シル
