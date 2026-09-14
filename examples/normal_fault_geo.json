@@ -1,8 +1,8 @@
 {
   "format": "OkadaField settings",
-  "schemaVersion": 2,
-  "appVersion": "0.4.0-beta",
-  "savedAt": "2026-09-09T00:00:00.000Z",
+  "schemaVersion": 3,
+  "appVersion": "1.0.1",
+  "savedAt": "2026-09-14T00:00:00.000Z",
   "parameters": {
     "coordMode": "geo",
     "nu": 0.25,
@@ -38,6 +38,8 @@
     "preset": "normal",
     "mapLayer": "pale",
     "metric": "cff",
-    "vectors": "on"
+    "vectors": "on",
+    "scaleMode": "group",
+    "scaleMPa": 1
   }
 }
