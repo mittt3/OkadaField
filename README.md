@@ -1,4 +1,4 @@
-# OkadaField 1.0.0
+# OkadaField 1.0.1
 
 **対応環境：Windows 64-bit (x64) のみ**  
 **表示言語：日本語のみ**
@@ -14,8 +14,8 @@ OkadaField は，Okada (1992) の有限矩形断層 `DC3D` に基づき，半無
 Windows 64-bit (x64) 版は GitHub Releases からダウンロードしてください。
 
 - [Latest release](https://github.com/mittt3/OkadaField/releases/latest)
-- 推奨：`OkadaField-v1.0.0-Windows-x64-ja.zip`
-- 実行ファイル単体：`OkadaField-v1.0.0-Windows-x64-ja.exe`
+- 推奨：`OkadaField-v1.0.1-Windows-x64-ja.zip`
+- 実行ファイル単体：`OkadaField-v1.0.1-Windows-x64-ja.exe`
 
 > GitHub の `Code` → `Download ZIP` には実行ファイルは含まれません。OkadaField を使用する場合は，上記 Release からダウンロードしてください。
 
@@ -41,6 +41,10 @@ Windows 64-bit (x64) 版は GitHub Releases からダウンロードしてくだ
 - JSON 設定ファイルの保存・読込
 
 詳細な変更履歴は `RELEASE_NOTES.md` を参照してください。
+
+### v1.0.1 について
+
+v1.0.1 は引用・配布情報を整理したメンテナンスリリースです。数値計算アルゴリズム，表示機能，操作仕様は v1.0.0 から変更していません。
 
 ## 実行方法
 
