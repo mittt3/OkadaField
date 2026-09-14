@@ -1,5 +1,14 @@
 # OkadaField release notes
 
+## 1.0.1
+
+Maintenance release for distribution and citation metadata.
+
+- Updated README download guidance so users are directed to GitHub Release assets rather than `Code` -> `Download ZIP`.
+- Updated application, example-settings, NOTICE, and `CITATION.cff` version metadata to 1.0.1.
+- Prepared citation metadata for archival services such as Zenodo.
+- No changes to the DC3D numerical kernel, displacement/strain/stress/Coulomb calculations, plotting behavior, or GUI functionality relative to v1.0.0.
+
 ## 1.0.0
 
 First stable release of OkadaField.
