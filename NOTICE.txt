@@ -1,4 +1,4 @@
-OkadaField 0.4.2 beta — NOTICE
+OkadaField 1.0.1 — NOTICE
 
 Platform: Windows 64-bit (x64) only
 GUI language: Japanese only
@@ -15,8 +15,8 @@ isotropic, linear elastic medium. Coulomb stress change is resolved on a specifi
 receiver fault as dCFF = dTau + mu' dSigmaN, where dSigmaN is positive for
 tension/unclamping and mu' is an effective friction coefficient supplied by the user.
 
-This public package contains the GUI executable, documentation, and example
-settings. Source code is not included in this distribution.
+This public package contains the GUI executable, documentation, citation metadata,
+and example settings. Source code is not included in this distribution.
 
 Users who need the original DC3D source or manual should refer to the official
 NIED / Bousai website DC3D page:
