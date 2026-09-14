@@ -2,19 +2,11 @@ cff-version: 1.2.0
 message: "If you use OkadaField, please cite this software and Okada (1992)."
 title: "OkadaField"
 type: software
-
 authors:
   - family-names: "Mitsui"
     given-names: "Yuta"
     affiliation: "Shizuoka University"
-
-version: "0.4.3-beta"
-date-released: "2026-09-14"
-
+version: "1.0.0"
+date-released: 2026-09-14
 repository-code: "https://github.com/mittt3/OkadaField"
 url: "https://github.com/mittt3/OkadaField"
-
-abstract: >-
-  OkadaField is a Windows application for visualizing displacement,
-  strain, stress changes, Coulomb stress changes, and tilt based on
-  the finite rectangular dislocation solution of Okada (1992).
