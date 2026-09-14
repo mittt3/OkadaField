@@ -1,52 +1,49 @@
 # OkadaField release notes
 
+## 1.0.0
+
+First stable release of OkadaField.
+
+- Promoted the v0.4.4 beta feature set to the first stable release.
+- Retained 1:1 plot-distance scaling and centered, symmetric displacement-vector placement.
+- Retained browser heartbeat monitoring and automatic shutdown after about 90 seconds without browser communication.
+- Retained displacement, strain, stress-change, Coulomb-stress-change, tilt, GSI map overlay, PNG/CSV export, and JSON settings support.
+- Simplified README for end users; detailed beta development history remains in these release notes.
+- Updated application and citation metadata to version 1.0.0.
+- No changes to the DC3D numerical kernel or the strain/stress/Coulomb calculations relative to v0.4.4 beta.
+
+## 0.4.4 beta
+
+- Centered the plot data region horizontally while preserving 1:1 distance scaling.
+- Changed displacement-vector subsampling to be symmetric about the grid center.
+- For the default 101 x 101 grid, the vector lattice includes the exact center point and is left/right and up/down symmetric.
+- No changes to the DC3D numerical kernel, strain/stress/Coulomb calculations, or browser auto-shutdown behavior.
+
+## 0.4.3 beta
+
+- Added browser heartbeat monitoring and automatic application shutdown.
+- If browser communication stops for about 90 seconds, the localhost server and `OkadaField.exe` shut down automatically.
+- Updated README contact to `mit [at] shizuoka.ac.jp`.
+- Added `CITATION.cff` for GitHub/Zenodo citation metadata.
+
 ## 0.4.2 beta
 
 - Changed plot geometry so horizontal and vertical distance scales are equal (1:1).
-- East–North maps now use the same pixel scale per km in both directions.
-- East–Depth and North–Depth sections also use the same pixel scale per km horizontally and vertically.
-- Geographic-map mode fits the plot area to the Web Mercator projected aspect ratio so vector directions are not distorted by the plotting rectangle.
-- Vector arrows therefore preserve their displayed direction relative to the coordinate axes.
-- No changes to the DC3D numerical kernel, strain/stress calculation, or Coulomb-stress calculation.
-- Simplified the GSI map-background wording in README.
+- Geographic-map mode fits the plot area to the Web Mercator projected aspect ratio.
 
 ## 0.4.1 beta
 
-- Added stress color-scale controls.
-- Default scale is shared within each comparison group:
-  - six stress-tensor components share one symmetric MPa range;
-  - dTau, dSigmaN, and dCFF share one symmetric MPa range.
-- Added per-field automatic scaling and user-defined symmetric +/- MPa scaling.
-- Color-scale mode and manual range are saved in JSON settings.
-- No changes to the DC3D numerical kernel, elastic stress calculation, or Coulomb stress calculation.
-- Added a regression test confirming dTau and dCFF are numerically distinct for the default reverse-fault example.
+- Added shared / per-field / user-defined stress color-scale controls.
+- dTau, dSigmaN, and dCFF can be compared using one common symmetric MPa range.
 
 ## 0.4.0 beta
 
 - Added elastic stress-change calculation from the DC3D strain tensor.
-- Added rigidity `mu` (GPa) as a user input.
-- The first Lamé constant `lambda` is calculated automatically from Poisson's ratio and rigidity.
-- Added stress components: dSigmaEE, dSigmaNN, dSigmaUU, dSigmaEN, dSigmaEU, dSigmaNU (MPa).
-- Added receiver-fault Coulomb stress calculation:
-  - dTau: positive in the specified receiver rake direction
-  - dSigmaN: positive for tension / unclamping
-  - dCFF = dTau + mu' dSigmaN
-- Added receiver strike / dip / rake and user-defined effective friction coefficient `mu'`.
-- Added `receiver = source` mode. Receiver strike/dip follow the source and rake is derived from atan2(DISL2, DISL1).
-- Stress and Coulomb quantities are included in CSV export and JSON settings.
-- Kept the simple fault projection used in v0.3.2: dashed horizontal projection and source-reference `+` only.
-- Kept the enlarged plot axis/tick labels.
-- Public package remains Windows x64 / Japanese UI only. Source code is not included in the distribution.
-
-### Validation added in 0.4.0
-
-- `nu = 0.25`, `mu = 30 GPa` gives `lambda = 30 GPa`.
-- A synthetic receiver-plane stress tensor resolves to the expected normal stress, shear stress, and Coulomb stress signs and magnitudes.
-- At the free surface, dSigmaUU, dSigmaEU, and dSigmaNU are zero to numerical precision away from singular points.
+- Added receiver-fault Coulomb stress calculation.
+- Added rigidity `mu` (GPa), receiver strike / dip / rake, and effective friction coefficient `mu'`.
 
 ## 0.3.2 beta
 
 - Renamed the application to OkadaField.
 - Simplified the source overlay to a dashed horizontal fault projection and source-reference `+` only.
 - Enlarged basic plot labels for readability.
-- Public package contains only the GUI executable, documentation, and examples.
